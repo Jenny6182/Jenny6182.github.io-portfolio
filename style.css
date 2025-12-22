@@ -3,7 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* margin: auto;  */
+    display: flex;  
+    justify-content: center; /* for horizontal */
+    align-items: center; /* for vertical */
 }
+
+
 
 body {
     font-family: Arial, sans-serif;
