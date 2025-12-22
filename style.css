@@ -75,6 +75,20 @@ section {
     text-decoration: underline;
 }
 
+.image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* .image-container img {
+  object-fit: contain; */
+/* or
+  object-fit: cover; */
+/* }  */
+
+
+
 footer {
     text-align: center;
     padding: 1rem;
